@@ -6,8 +6,8 @@
 	- [Nombre de los alumnos participantes](#integrantes)
     - [Introducción](#introducción)
 	- [Objetivo del trabajo](#objetivos-del-trabajo)
-	- [Descripción del dataset](#descripción_del_dataset)
-		- [`artist_count.csv`](#artist_playlist)
+	- [Descripción del dataset](#descripción-del-dataset)
+		- [`artist_count.csv`](#artist-playlist)
 	- [Conclusiones](#conclusiones)
 	- [Licencia](#licencia)
 ---
