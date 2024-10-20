@@ -1,13 +1,15 @@
 # Spotify_Complex_Network
 
 ## Index
-- [Recomendation\_System](#movies_Recommendation_System)
+- [Spotify\_Complex\_Network](#spotify_complex_network)
 	- [Index](#index)
-	- [Nombre de los alumnos participantes](#integrantes)
-    - [Introducción](#introducción)
-	- [Objetivo del trabajo](#objetivos-del-trabajo)
+	- [Integrantes](#integrantes)
+	- [Introducción](#introducción)
+	- [Objetivos del trabajo](#objetivos-del-trabajo)
 	- [Descripción del dataset](#descripción-del-dataset)
-		- [`artist_count.csv`](#artist-playlist)
+		- [`artist_count.csv`](#artist_countcsv)
+			- [colección de playlist](#colección-de-playlist)
+			- [colección de canciones](#colección-de-canciones)
 	- [Conclusiones](#conclusiones)
 	- [Licencia](#licencia)
 ---
@@ -28,7 +30,7 @@ El presente proyecto corresponde al trabajo parcial del curso de Complex Network
 - Identificar cómo se pueden clasificar los artistas en función de sus estilos musicales y géneros
 
 ## Descripción del dataset
-El dataset de Spotify utilizado en el RecSysChallenge 2018 contiene 1,000,000 playlists creadas entre enero de 2010 y octubre de 2017. Cada playlist incluye información detallada como el título, las listas de canciones, los IDs de las canciones y sus metadatos, en total 11 características. Además, seproporcionan datos adicionales como el nombre de la playlist, el númerodeálbumes, el número de canciones, la duracióntotalyotroselementosrelevantesenformatoJSON.
+El dataset de Spotify utilizado en el RecSysChallenge 2018 contiene 1,000,000 playlists creadas entre enero de 2010 y octubre de 2017. Cada playlist incluye información detallada como el título, las listas de canciones, los IDs de las canciones y sus metadatos, en total 11 características. Además, se proporcionan datos adicionales como el nombre de la playlist, el númerodeálbumes, el número de canciones, la duracióntotal y otros elementos relevantes en formato JSON.
 
 ### `artist_count.csv`
 #### colección de playlist
