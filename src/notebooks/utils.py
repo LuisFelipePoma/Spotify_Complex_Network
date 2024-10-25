@@ -42,7 +42,3 @@ def show_weight(G: nx.Graph | nk.Graph):
     print(f"Max Weight: {max_weight}")
     print(f"Min Weight: {min_weight}")
     print(f"Average Weight: {total_weight / g.number_of_edges()}")
-
-# get the artist name from the dict
-def get_artist_name(node, artists):
-    return list(artists.keys())[list(artists.values()).index(node)]
