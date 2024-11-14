@@ -9,7 +9,9 @@
 		}
 	],
 	"compilerOptions": {
-		// ... other options
-		"webWorker": true
+		"typeRoots": [
+			"./src/types",
+			"./node_modules/@types"
+		]
 	}
 }

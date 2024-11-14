@@ -1,0 +1,17 @@
+/* Gradiente radial mejorado con mayor ancho en el eje X */
+.bg-radial-dark {
+  background: radial-gradient(
+    ellipse at center,
+    rgba(1, 4, 9, 0) 0%,
+    rgba(1, 4, 9, 0.25) 20%,
+    rgba(1, 4, 9, 0.65) 40%,
+    rgba(1, 4, 9, 0.85) 60%,
+    rgba(1, 4, 9, 0.95) 65%,
+    rgba(1, 4, 9, 1) 80%,
+    rgba(1, 4, 9, 1) 100%
+  );
+  background-size: 100% 100%;
+  /* Avoid repeat */
+  background-repeat: no-repeat;
+  background-position: center;
+}
