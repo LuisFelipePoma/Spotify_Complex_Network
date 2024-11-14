@@ -8,10 +8,5 @@
 			"path": "./tsconfig.node.json"
 		}
 	],
-	"compilerOptions": {
-		"typeRoots": [
-			"./src/types",
-			"./node_modules/@types"
-		]
-	}
+	"compilerOptions": {}
 }
