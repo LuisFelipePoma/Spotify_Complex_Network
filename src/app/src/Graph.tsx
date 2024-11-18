@@ -139,6 +139,16 @@ const Graph: React.FC<Props> = ({
 
         const nodes = Object.values(nodesMap)
 
+        // Calculate the degree (number of connections) for each node
+        const nodeDegrees: { [id: string]: number } = {}
+        links.forEach(link => {
+          nodeDegrees[link.source as string] = (nodeDegrees[link.source as string] || 0) + 1
+          nodeDegrees[link.target as string] = (nodeDegrees[link.target as string] || 0) + 1
+        })
+        nodes.forEach(node => {
+          node.degree = nodeDegrees[node.id] || 0
+        })
+
         console.log('Número de nodos', nodes.length)
         console.log('Número de aristas', links.length)
 
@@ -159,8 +169,7 @@ const Graph: React.FC<Props> = ({
 
     if (!rendererRef.current) {
       rendererRef.current = new THREE.WebGLRenderer({
-        antialias: true,
-        alpha: true
+        antialias: false
       })
       rendererRef.current.setSize(width, height)
       rendererRef.current.setPixelRatio(window.devicePixelRatio)
@@ -280,7 +289,7 @@ const Graph: React.FC<Props> = ({
       )
       .force('center', forceCenter(0, 0, 0)) // Centrar la simulación
       .force('charge', forceManyBody().strength(-30))
-      .alphaDecay(0.1) // Aumentar la tasa de decaimiento alfa para estabilización más rápida
+      .alphaDecay(0.08) // Aumentar la tasa de decaimiento alfa para estabilización más rápida
       .on('tick', ticked)
       .on('end', () => {
         console.log('Simulation ended')
@@ -288,15 +297,17 @@ const Graph: React.FC<Props> = ({
       })
     // optimizations for performance
 
-    const nodeGeometry = new THREE.SphereGeometry(12, 8, 8)
+    // const nodeGeometry = new THREE.SphereGeometry(12, 8, 8)
     const nodeMeshes: { [id: string]: THREE.Mesh } = {}
 
     graphData.nodes.forEach(node => {
       const material = meshMaterials[node.community!]
+      const nodeRadius = Math.max(6, Math.min(18, node.degree! * 2))
+      const nodeGeometry = new THREE.SphereGeometry(nodeRadius, 8, 8)
       const nodeMesh = new THREE.Mesh(nodeGeometry, material)
-      nodeMesh.castShadow = true // Nodes cast shadows
-      nodeMesh.receiveShadow = true // Nodes receive shadows
-      nodeMesh.userData = { node } // Asigna los datos del nodo aquí
+      nodeMesh.castShadow = true
+      nodeMesh.receiveShadow = true
+      nodeMesh.userData = { node }
       nodeMesh.renderOrder = 1
       nodeMeshes[node.id] = nodeMesh
 
@@ -307,7 +318,7 @@ const Graph: React.FC<Props> = ({
     // Modify the linkMaterial to ensure edges have appropriate color and opacity
     const linkMaterial = new THREE.LineBasicMaterial({
       // best color for edge in dark background
-      color: 0x4f5b66,
+      color: 0xf6e0b5,
       opacity: 0.1,
       transparent: true,
       side: THREE.DoubleSide

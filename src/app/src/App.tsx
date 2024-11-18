@@ -125,7 +125,7 @@ const App: React.FC = () => {
                 bg-accent/80
                 placeholder:text-gray transition-all duration-[1s] ease-in-out
                 '
-                placeholder='Ingresa tu artista ramita andre'
+                placeholder='Ingresa tu artista'
                 onChange={handleSearch}
                 disabled={isLoading}
               />
@@ -157,66 +157,149 @@ const App: React.FC = () => {
       )}
 
       {!isLoading && (
-        <section
-          className='absolute z-20 bottom-5 right-5 bg-accent/80 w-[400px] max-h-[850px] 
+        <>
+          <section
+            className='absolute z-20 top-5 right-5 bg-accent/80 w-[200px] max-h-[850px] 
+                   overflow-hidden transition-all duration-700 ease-in rounded-md px-3 py-2
+                   backdrop-blur-md'
+          >
+            <h1 className='text-primary underline text-lg font-semibold text-center'>
+              Top Artists
+            </h1>
+            <div
+              className={`transition-all duration-700 ease-in-out text-white overflow-hidden overflow-y-scroll no-scrollbar ${
+                !isOpen ? 'h-[250px] opacity-100' : 'h-0 opacity-0'
+              }`}
+            >
+              <p className='flex w-full justify-between text-light'>
+                Drake<span className='font-bold text-primary'>0.034</span>
+              </p>
+              <p className='flex w-full justify-between text-light'>
+                Kanye West<span className='font-bold text-primary'>0.012</span>
+              </p>
+              <p className='flex w-full justify-between text-light'>
+                Kendrick Lamar
+                <span className='font-bold text-primary'>0.017</span>
+              </p>
+              <p className='flex w-full justify-between text-light'>
+                Future<span className='font-bold text-primary'>0.013</span>
+              </p>
+              <p className='flex w-full justify-between text-light'>
+                Big_Sean<span className='font-bold text-primary'>0.013</span>
+              </p>
+              <p className='flex w-full justify-between text-light'>
+                J._Cole<span className='font-bold text-primary'>0.012</span>
+              </p>
+              <p className='flex w-full justify-between text-light'>
+                Rihanna Node
+                <span className='font-bold text-primary'>0.012</span>
+              </p>
+              <p className='flex w-full justify-between text-light'>
+                The Weeknd<span className='font-bold text-primary'>0.012</span>
+              </p>
+              <p className='flex w-full justify-between text-light'>
+                Migos<span className='font-bold text-primary'>0.012</span>
+              </p>
+              <p className='flex w-full justify-between text-light'>
+                Rae Sremmurd
+                <span className='font-bold text-primary'>0.011</span>
+              </p>
+            </div>
+          </section>
+          <section
+            className='absolute z-20 bottom-5 right-5 bg-accent/80 w-[400px] max-h-[850px] 
                    overflow-hidden transition-all duration-700 ease-in rounded-md 
                    backdrop-blur-md'
-        >
-          <header
-            className='flex justify-between w-full select-none cursor-pointer items-center py-4 px-5'
-            onClick={() => setIsOpen(!isOpen && comunity != '')}
           >
-            <p className='text-primary '>
-              Comunidades:{' '}
-              <span className='text-white font-semibold'>{numberCom}</span>
-            </p>
-            <p className='text-primary'>
-              Pertenece a:{' '}
-              <span className='text-white font-bold'>
-                {comunity || 'Ninguna'}
-              </span>
-            </p>
-
-            <svg
-              viewBox='0 0 24 24'
-              fill='none'
-              stroke='currentColor'
-              strokeLinecap='round'
-              strokeLinejoin='round'
-              width={24}
-              height={24}
-              strokeWidth={2}
-              className='animate-pulse text-primary hover:scale-110 transition-all duration-500 ease-in-out'
+            <header
+              className='flex flex-col gap-5 justify-between w-full select-none cursor-pointer items-center py-4 px-5'
+              onClick={() => setIsOpen(!isOpen && comunity != '')}
             >
-              <path d='M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0'></path>
-              <path d='M12 9h.01'></path>
-              <path d='M11 12h1v4h1'></path>
-            </svg>
-          </header>
-
-          <div
-            className={`transition-all duration-700 ease-in-out text-white overflow-hidden overflow-y-scroll no-scrollbar ${
-              isOpen ? 'h-[800px] opacity-100' : 'h-0 opacity-0'
-            }`}
-          >
-            <hr className='border-t-2 border-gray/50 mx-2 ' />
-            <section className='flex flex-col gap-5 py-1'>
-              {comunity && comunities && (
-                <p className='px-2'>
-                  {comunities[comunity].map(info => (
-                    <article className='flex flex-col justify-between'>
-                      <h1 className='text-primary py-1'>{info.name}</h1>
-                      <p className='text-sm text-balance py-2'>
-                        {info.description}
-                      </p>
-                      <hr className='border-t-2 border-gray/50' />
-                    </article>
-                  ))}
+              <nav className='flex justify-between w-full items-center '>
+                <p className='text-primary '>
+                  Comunidades:{' '}
+                  <span className='text-white font-semibold'>{numberCom}</span>
                 </p>
-              )}
-            </section>
-          </div>
-        </section>
+                <p className='text-primary'>
+                  Pertenece a:{' '}
+                  <span className='text-white font-bold'>
+                    {comunity || 'Ninguna'}
+                  </span>
+                </p>
+
+                <svg
+                  viewBox='0 0 24 24'
+                  fill='none'
+                  stroke='currentColor'
+                  strokeLinecap='round'
+                  strokeLinejoin='round'
+                  width={24}
+                  height={24}
+                  strokeWidth={2}
+                  className='animate-pulse text-primary hover:scale-110 transition-all duration-500 ease-in-out'
+                >
+                  <path d='M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0'></path>
+                  <path d='M12 9h.01'></path>
+                  <path d='M11 12h1v4h1'></path>
+                </svg>
+              </nav>
+              <section className='flex flex-wrap gap-x-2 gap-y-1  '>
+                <p className='text-primary '>
+                  Type of Graph:{' '}
+                  <span className='text-light font-bold'>Free Scale</span>
+                </p>
+                <p className='text-primary '>
+                  Min community size:{' '}
+                  <span className='text-light font-bold'>112</span>{' '}
+                </p>
+                <p className='text-primary '>
+                  Max community size:{' '}
+                  <span className='text-light font-bold'>1122</span>{' '}
+                </p>
+                <p className='text-primary '>
+                  Avg. community size:{' '}
+                  <span className='text-light font-bold'>462.85</span>{' '}
+                </p>
+                <p className='text-primary '>
+                  Imbalance: <span className='text-light font-bold'>2.42</span>{' '}
+                </p>
+                <p className='text-primary '>
+                  Edge cut:{' '}
+                  <span className='text-light font-bold'>1.47e+07</span>{' '}
+                </p>
+                <p className='text-primary '>
+                  Edge cut (portion):{' '}
+                  <span className='text-light font-bold'>47.60%</span>{' '}
+                </p>
+                <p className='text-primary '>
+                  Modularity: <span className='text-light font-bold'>0.31</span>
+                </p>
+              </section>
+            </header>
+            <div
+              className={`transition-all duration-700 ease-in-out text-white overflow-hidden overflow-y-scroll no-scrollbar ${
+                isOpen ? 'h-[550px] opacity-100' : 'h-0 opacity-0'
+              }`}
+            >
+              <hr className='border-t-2 border-gray/50 mx-2 ' />
+              <section className='flex flex-col gap-5 py-1'>
+                {comunity && comunities && (
+                  <p className='px-2'>
+                    {comunities[comunity].map(info => (
+                      <article className='flex flex-col justify-between'>
+                        <h1 className='text-primary py-1'>{info.name}</h1>
+                        <p className='text-sm text-balance py-2'>
+                          {info.description}
+                        </p>
+                        <hr className='border-t-2 border-gray/50' />
+                      </article>
+                    ))}
+                  </p>
+                )}
+              </section>
+            </div>
+          </section>
+        </>
       )}
       <section className='w-full h-full relative z-10'>
         <div className='relative w-full h-fullbg-accent  rounded-lg'>

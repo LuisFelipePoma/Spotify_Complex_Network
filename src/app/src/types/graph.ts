@@ -8,6 +8,7 @@ export interface NodeInfo {
   vx?: number
   vy?: number
   vz?: number
+	degree?: number
 }
 
 export interface Link {

@@ -24,7 +24,7 @@ const Loading: React.FC = () => {
         ></path>
       </svg>
       <p className='text-white text-xl'>
-        Calculando las{' '}
+        Renderizando las{' '}
         <span className='text-primary font-bold'>comunidades</span> de
         artistas...
       </p>
