@@ -2,7 +2,7 @@ import React from 'react'
 
 const Loading: React.FC = () => {
   return (
-    <div className='fixed inset-0 z-50 flex flex-col items-center justify-center bg-black bg-opacity-70 backdrop-blur-sm'>
+    <div className='fixed inset-0 z-50 flex flex-col items-center justify-center bg-black bg-opacity-70 backdrop-blur-sm select-none'>
       <svg
         className='animate-spin h-12 w-12 text-primary mb-4'
         xmlns='http://www.w3.org/2000/svg'

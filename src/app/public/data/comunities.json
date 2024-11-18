@@ -1,0 +1,634 @@
+{
+	"0": [
+		{
+			"name": "Iconos del Pop y Dance-Pop",
+			"description": "Artistas como Britney Spears, Beyoncé, Justin Timberlake, Lady Gaga, y Rihanna fueron figuras centrales en el pop, muchos con éxitos globales. Su popularidad y estilo los hacían omnipresentes en playlists."
+		},
+		{
+			"name": "Artistas de Hip-Hop y R&B Comercial",
+			"description": "Artistas como Nicki Minaj, Flo Rida, Sean Kingston, y Fergie representan un segmento que fusiona R&B con pop y hip-hop, siendo ideales para playlists de fiesta y entrenamiento."
+		},
+		{
+			"name": "Influencias de la Electrónica y el Dance",
+			"description": "Cascada, La Roux, LMFAO y Alexandra Stan pertenecen al género electrónico y dance, tendencias que dominaron la música de fiestas, clubes y también fueron populares en playlists de entrenamiento."
+		},
+		{
+			"name": "Estrellas del Reality y la Cultura Pop",
+			"description": "Figuras como Paris Hilton, RuPaul y Alaska Thunderfuck, además de algunos otros que emergieron en programas de talento, también son parte de este conjunto. Esto muestra que algunos usuarios incorporan a sus playlists contenido de música pop altamente mediatizada."
+		},
+		{
+			"name": "Nostalgia de los Años 90 y 2000",
+			"description": "Grupos como NSYNC, Backstreet Boys, Spice Girls, y ATeens representan una fuerte nostalgia de las décadas pasadas, lo cual es común en playlists de throwbacks o de temática retro."
+		},
+		{
+			"name": "Canciones de Películas y TV",
+			"description": "Incluye intérpretes de canciones de películas o series, como Jennifer Hudson en Dreamgirls o el elenco de SMASH, lo cual sugiere que los usuarios buscan recrear emociones de ciertos momentos cinematográficos."
+		}
+	],
+	"1": [
+		{
+			"name": "R&B de los 90 y principios de los 2000",
+			"description": "Artistas como Boyz II Men, Mary J. Blige, Toni Braxton, y Blackstreet son íconos de este período y representan un estilo distintivo de baladas románticas y temas de amor, típicos en playlists nostálgicas y de “slow jams”."
+		},
+		{
+			"name": "Hip-Hop & Rap de Fiesta y R&B Fusionado",
+			"description": "Lil Jon & The East Side Boyz, Ying Yang Twins, y Juvenile, junto a R&B de fiesta de la época, como Chingy y J-Kwon, aportan una fusión que solía popularizarse en clubes y eventos sociales."
+		},
+		{
+			"name": "Colaboraciones de R&B y Pop Urbano",
+			"description": "Muchos de estos artistas, como Usher, Mariah Carey, y Ludacris, colaboraron entre sí y crearon éxitos que cruzaron las fronteras del pop y el hip-hop, siendo frecuentes en playlists de éxitos de la época y listas de reproducción de R&B y pop urbano."
+		},
+		{
+			"name": "Música Gospel y Soul",
+			"description": "Artistas como Kirk Franklin, Smokie Norful y Kelly Price representan el soul y el gospel, con un mensaje más espiritual, y son comunes en playlists de música inspiradora o espiritual."
+		},
+		{
+			"name": "Influencias del Reggae y Dancehall",
+			"description": "Con artistas como Sean Paul, Shaggy, Beenie Man, y Wayne Wonder, este grupo también muestra una conexión con el reggae y el dancehall, estilos que a menudo se mezclan en listas de reproducción de R&B y hip-hop."
+		},
+		{
+			"name": "Íconos del Neo-Soul y Jazz",
+			"description": "India.Arie, Jill Scott, Erykah Badu y D'Angelo son figuras del neo-soul, un subgénero que combina R&B y jazz con un tono más introspectivo. Estos artistas suelen aparecer en playlists para momentos relajados o reflexivos."
+		},
+		{
+			"name": "Nostalgia de R&B Femenino:",
+			"description": "Grupos como Destiny's Child, TLC, SWV y Xscape representan una época dorada de grupos femeninos de R&B que son populares en listas de 'throwbacks' y nostalgia de R&B."
+		}
+	],
+	"2": [
+		{
+			"name": "Hip-Hop Clásico y de la Costa Este",
+			"description": "Artistas como A Tribe Called Quest, The Notorious B.I.G., Nas, y Public Enemy representan la época dorada del hip-hop de la Costa Este, caracterizada por letras complejas y una fuerte conciencia social."
+		},
+		{
+			"name": "Hip-Hop de la Costa Oeste y G-Funk",
+			"description": "Snoop Dogg, Dr. Dre, Ice Cube, y Tupac Shakur fueron pioneros en el G-Funk y el gangsta rap de la Costa Oeste, fusionando funk con ritmos de hip-hop y explorando temas callejeros y de vida en los barrios de Los Ángeles."
+		},
+		{
+			"name": "Hip-Hop Underground y Alternativo",
+			"description": "Cunninlynguists, Atmosphere, MF DOOM, y Aesop Rock son conocidos en el hip-hop alternativo y underground, destacándose por su experimentación en sonidos y su profundidad lírica."
+		},
+		{
+			"name": "Rap de Club y Hip-Hop Comercial",
+			"description": "Con artistas como 50 Cent, Lil Jon & The East Side Boyz, y Fatman Scoop, este estilo es ideal para fiestas y ambientes de club, con beats energéticos y estribillos repetitivos para animar el ambiente."
+		},
+		{
+			"name": "Rap Sureño y Crunk",
+			"description": "UGK, OutKast, y Three 6 Mafia fueron figuras clave del rap sureño y el estilo crunk, caracterizado por un sonido pesado y una atmósfera de celebración y alarde."
+		},
+		{
+			"name": "Rap Político y Consciente",
+			"description": "Public Enemy, Dead Prez, y The Roots son artistas de rap consciente que abordan temas políticos, justicia social y problemáticas comunitarias, atrayendo a oyentes que buscan reflexionar."
+		},
+		{
+			"name": "Hip-Hop Humorístico y Paródico",
+			"description": "Artistas como Jon Lajoie, Rucka Rucka Ali, y Epic Rap Battles of History utilizan el hip-hop para la comedia y la parodia, creando canciones humorísticas con letras satíricas."
+		},
+		{
+			"name": "Hip-Hop Multicultural y Experimental",
+			"description": "Grupos como A Tribe Called Red y Panjabi MC fusionan hip-hop con ritmos de diferentes culturas, creando un sonido único y diversificado dentro del género."
+		}
+	],
+	"3": [
+		{
+			"name": "Rock Alternativo",
+			"description": "Un género que surgió en la década de 1980 y se popularizó en la década de 1990. Se caracteriza por su sonido distintivo que mezcla elementos del punk, el post-punk y otros estilos de rock."
+		},
+		{
+			"name": "Pop Punk",
+			"description": "Un subgénero del punk rock que combina la energía y actitud del punk con melodías pegajosas y estructuras de canciones del pop."
+		},
+		{
+			"name": "Metal",
+			"description": "Un género de música rock que se caracteriza por su sonido pesado y agresivo, con guitarras distorsionadas, ritmos rápidos y letras a menudo oscuras o introspectivas."
+		},
+		{
+			"name": "Emo",
+			"description": "Un subgénero del rock que se caracteriza por sus letras emocionales y confesionales, a menudo abordando temas de angustia y relaciones personales."
+		},
+		{
+			"name": "Indie Rock",
+			"description": "Un género de rock que se caracteriza por su enfoque en la independencia artística y la producción fuera de las grandes discográficas. A menudo presenta un sonido más experimental y menos comercial."
+		},
+		{
+			"name": "Nu Metal",
+			"description": "Un subgénero del metal que incorpora elementos de otros géneros como el hip hop, el grunge y el industrial. Se caracteriza por sus ritmos pesados y la mezcla de rap y canto melódico."
+		},
+		{
+			"name": "Post-Hardcore",
+			"description": "Un subgénero del hardcore punk que incorpora elementos más melódicos y experimentales, a menudo con cambios de tempo y dinámicas complejas."
+		},
+		{
+			"name": "Grunge",
+			"description": "Un subgénero del rock alternativo que surgió en Seattle a finales de los 80 y principios de los 90. Se caracteriza por su sonido sucio y distorsionado, y letras introspectivas y melancólicas."
+		},
+		{
+			"name": "Pop Rock",
+			"description": "Un género que combina elementos del pop y el rock, caracterizado por melodías pegajosas, letras accesibles y una producción pulida."
+		},
+		{
+			"name": "Hard Rock",
+			"description": "Un género de rock que se caracteriza por su sonido pesado y agresivo, con guitarras distorsionadas y ritmos contundentes."
+		}
+	],
+	"4": [
+		{
+			"name": "Disney y Nickelodeon Pop Stars",
+			"description": "Artistas como Miley Cyrus, Demi Lovato, Jonas Brothers, Ashley Tisdale, y Selena Gomez, conocidos por sus carreras iniciadas en Disney Channel o Nickelodeon, representan el pop juvenil y canciones enfocadas en un público adolescente. Sus temas son comunes en playlists nostálgicas de pop de los 2000 y 2010."
+		},
+		{
+			"name": "Pop Influenciado por el Cine y Teatro Musical",
+			"description": "Intérpretes como Kristen Bell, Josh Gad, Alan Menken, Lea Salonga, y Angela Lansbury están relacionados con canciones de musicales y bandas sonoras de películas de Disney, generando un estilo dramático y emotivo. Estos artistas son populares en playlists de bandas sonoras de películas y canciones teatrales."
+		},
+		{
+			"name": "Cultura de Cover y Acapella",
+			"description": "Artistas y grupos como Home Free, The Whiffenpoofs, BYU Noteworthy y Superfruit, reconocidos por su enfoque en covers y actuaciones a capella, son populares en playlists dedicadas a versiones únicas de canciones populares o interpretaciones vocales de temas conocidos."
+		},
+		{
+			"name": "Pop Moderno y Colaboraciones Internacionales",
+			"description": "Artistas como Ariana Grande, Charli XCX, Ellie Goulding, y Jessie J representan el pop contemporáneo y son conocidos por colaborar con otros géneros y artistas internacionales. Su presencia es común en listas de éxitos actuales y playlists de música pop internacional."
+		},
+		{
+			"name": "Estrellas de YouTube y Redes Sociales",
+			"description": "Intérpretes como Jacob Sartorius, Megan Nicole, y Ricky Dillon, que alcanzaron la fama a través de plataformas como YouTube y redes sociales, están presentes en playlists orientadas a descubrimiento de artistas independientes y música viral de internet."
+		},
+		{
+			"name": "Pop Infantil y Familiar",
+			"description": "Grupos como Kidz Bop Kids y The Mouseketeers, conocidos por adaptar canciones populares a versiones aptas para niños y familias, son comunes en playlists familiares y de canciones para niños, siendo un entretenimiento seguro y divertido."
+		},
+		{
+			"name": "Íconos del Teatro y el Clásico Infantil",
+			"description": "Artistas como Donny Osmond, Jodi Benson, y Samuel E. Wright, conocidos por sus interpretaciones en películas y series animadas clásicas, tienen una presencia significativa en playlists nostálgicas de Disney y clásicos del teatro musical."
+		}
+	],
+	"5": [
+		{
+			"name": "Indie Rock y Alternativa",
+			"description": "Artistas como Arctic Monkeys, Cage The Elephant, Florence + The Machine, y Vampire Weekend representan el sonido distintivo del indie rock y la música alternativa, caracterizados por melodías pegajosas, letras introspectivas y experimentación musical. Son comunes en playlists para descubrir música alternativa y rock moderno."
+		},
+		{
+			"name": "Electrónica y Dream Pop",
+			"description": "Bandas y artistas como Cigarettes After Sex, The Knife, Hammock y Helios exploran géneros como el dream pop y la electrónica ambiental, con una atmósfera envolvente y melancólica. Estas pistas suelen aparecer en playlists relajantes o listas de música atmosférica."
+		},
+		{
+			"name": "Indie Pop y Art Rock",
+			"description": "Con artistas como Tame Impala, alt-J, y Gorillaz, este grupo mezcla elementos de indie pop con influencias de art rock y psicodelia. Sus sonidos experimentales y estilos únicos los hacen populares en playlists de música alternativa y psicodélica."
+		},
+		{
+			"name": "Folk Alternativo y Rock Indie Suave",
+			"description": "Artistas como Lucy Dacus, Lauren O'Connell, y The War On Drugs presentan un enfoque más suave y reflexivo, fusionando el folk con elementos del rock indie. Estas canciones suelen incluirse en playlists para momentos introspectivos o de relajación."
+		},
+		{
+			"name": "Synthpop y Electrónica Experimental",
+			"description": "Artistas como DJ Krush, Fever Ray, y Metaform exploran el synthpop y la electrónica experimental, con ritmos eclécticos y producción innovadora. Este estilo es común en listas de reproducción de música electrónica alternativa."
+		},
+		{
+			"name": "Indie Rock Nostálgico",
+			"description": "Bandas como The Kooks, The Front Bottoms, y Catfish and the Bottlemen representan una vertiente nostálgica del indie rock, caracterizada por letras emocionales y un sonido crudo. Estas canciones son comunes en playlists para recordar la era dorada del indie de los 2000."
+		}
+	],
+	"6": [
+		{
+			"name": "K-Pop y Pop Coreano",
+			"description": "Artistas como BTS, BLACKPINK, EXO, Red Velvet, Girls' Generation, BIGBANG, y TWICE representan la fuerza y popularidad del K-Pop en la escena global. Este grupo de artistas es reconocido por sus impresionantes coreografías, conceptos visuales y una sólida base de fans internacional, que ha permitido que el K-Pop se vuelva una industria globalmente influyente."
+		},
+		{
+			"name": "Rap y Hip-Hop Coreano",
+			"description": "Artistas como Jay Park, Zico, Zion.T, Simon Dominic y Dynamic Duo son líderes del hip-hop coreano, aportando una fusión única de ritmos occidentales y letras en coreano. Este estilo es popular entre los jóvenes en Corea del Sur y cuenta con una creciente audiencia global que busca un enfoque único y fresco en el hip-hop."
+		},
+		{
+			"name": "K-R&B y Soul Coreano",
+			"description": "Cantantes como DEAN, Crush, Heize y Ailee son conocidos por su interpretación emotiva y su sonido suave en el R&B coreano. Este estilo, más relajado y melódico, se centra en temas de amor y desamor, y ha ganado popularidad tanto en Corea como internacionalmente."
+		},
+		{
+			"name": "Bandas Sonoras de Musicales",
+			"description": "Artistas de musicales populares de Broadway como Lin-Manuel Miranda, Leslie Odom Jr., Phillipa Soo y Renée Elise Goldsberry de 'Hamilton', y actores como Ben Platt y Jonathan Groff de otros musicales representan una mezcla de teatro y música. Sus canciones son altamente interpretativas y dramáticas, y suelen atraer a fans del teatro musical."
+		},
+		{
+			"name": "Baladas Coreanas y Pop Vocal",
+			"description": "Artistas como Davichi, IU, y K.Will se especializan en baladas y canciones de pop vocal en Corea. Su música, emotiva y orientada al canto, es ideal para listas de reproducción melancólicas o de momentos de introspección."
+		},
+		{
+			"name": "Grupos Íconos del K-Pop Clásico",
+			"description": "Artistas y grupos como Super Junior, Girls' Generation, SHINee, y 2NE1 fueron pioneros del K-Pop moderno y continúan siendo populares, influyendo en los nuevos ídolos y manteniendo una fuerte base de fans en todo el mundo. Estos grupos ayudaron a abrir el camino para la ola Hallyu y establecieron el estándar del K-Pop actual."
+		}
+	],
+	"7": [
+		{
+			"name": "Rock Clásico y de los 70s",
+			"description": "Artistas como Led Zeppelin, The Rolling Stones, Lynyrd Skynyrd, y Creedence Clearwater Revival representan el rock clásico que definió los años 70. Estos artistas suelen aparecer en playlists de rock nostálgico, apreciados por sus solos de guitarra y su estilo característico."
+		},
+		{
+			"name": "Baladas y Pop Rock de los 80s",
+			"description": "Artistas como Toto, Boston, y Air Supply encapsulan el sonido del pop rock y baladas de los 80. Sus temas, populares en ese tiempo, suelen destacarse en listas de reproducción temáticas de nostalgia y 'power ballads'."
+		},
+		{
+			"name": "Pop y Synth Pop de los 80s",
+			"description": "Grupos como Pet Shop Boys, Tears for Fears, y Depeche Mode son icónicos del pop sintetizado de los 80s, caracterizados por el uso de sintetizadores y temas bailables. Estos artistas siguen siendo populares en playlists retro y de fiesta."
+		},
+		{
+			"name": "Soul y R&B Clásico",
+			"description": "Artistas como Etta James, The Isley Brothers, y Roberta Flack son figuras importantes del soul y R&B clásico, con temas emocionales y letras profundas. Estos suelen aparecer en listas de reproducción de música soul y romántica."
+		},
+		{
+			"name": "Country y Folk Tradicional",
+			"description": "Artistas como Dolly Parton, Woody Guthrie y Ray Price representan el country y folk tradicional estadounidense. Sus canciones aparecen frecuentemente en playlists de música folk, apreciadas por sus letras nostálgicas y su conexión con la cultura rural."
+		},
+		{
+			"name": "Funk y Disco de los 70s y 80s",
+			"description": "Grupos como The Bar-Kays, Wild Cherry, y Heatwave traen el funk y disco característicos de los 70s y 80s, populares por sus ritmos pegajosos y energía para el baile. Son comunes en listas de reproducción de fiesta y retro."
+		},
+		{
+			"name": "Pop de los 70s y 80s",
+			"description": "Bandas como ABBA, The Monkees, y The Turtles representan el pop alegre y melódico de los 70s y 80s, apreciado por su estilo pegajoso y accesible. Se encuentran en playlists temáticas de décadas pasadas."
+		},
+		{
+			"name": "Jazz y Blues Clásico",
+			"description": "Artistas como Miles Davis, Duke Ellington, y Mel Tormé son referentes del jazz y blues clásico, con complejas composiciones y sonidos sofisticados. Sus temas aparecen en playlists de jazz instrumental y blues."
+		},
+		{
+			"name": "Soft Rock y Adult Contemporary",
+			"description": "Artistas como Carly Simon, Christopher Cross, y Carole King representan el soft rock y el adult contemporary, caracterizados por sus melodías suaves y letras profundas. Estos artistas son comunes en playlists relajantes y nostálgicas."
+		},
+		{
+			"name": "Música de Películas y Temas Populares",
+			"description": "Artistas como John Williams, Nancy Wilson, y Georgio han creado temas que resuenan en el cine y la televisión, y aparecen en playlists de bandas sonoras o temas populares de distintas décadas."
+		}
+	],
+	"8": [
+		{
+			"name": "Indie Folk y Rock Alternativo Contemporáneo",
+			"description": "Artistas como The Lumineers, Mumford & Sons, Of Monsters and Men, y Ben Harper aportan un sonido folk moderno fusionado con elementos de rock alternativo, lo que les otorga una presencia destacada en listas de música relajante y emotiva."
+		},
+		{
+			"name": "Singer-Songwriter y Folk Indie",
+			"description": "Cantantes como Ben Folds, Matt Nathanson, Ryan Adams y Feist son conocidos por sus letras introspectivas y sus composiciones acústicas que se destacan por su sencillez y profundidad emocional."
+		},
+		{
+			"name": "Folk Experimental y Alternativo",
+			"description": "Artistas como José González, Sufjan Stevens, y Gregory Alan Isakov representan un enfoque más experimental del folk, mezclando sonidos delicados con atmósferas únicas que atraen a los oyentes más aventureros."
+		},
+		{
+			"name": "Blues Rock y Música Folk Contemporánea",
+			"description": "Bandas como The Paper Kites, Ryan Montbleau, y Dorothy mezclan el blues y la música folk contemporánea, creando un sonido cálido y orgánico que ha cautivado a audiencias en todo el mundo."
+		},
+		{
+			"name": "Música Acústica y Soul",
+			"description": "Artistas como Michael Kiwanuka, Jason Mraz, y Colbie Caillat han sido destacados por sus estilos suaves y melódicos, fusionando elementos acústicos con toques de soul, lo que los ha convertido en favoritos en playlists relajadas."
+		},
+		{
+			"name": "Música Indie Pop y Alternativa",
+			"description": "Artistas como Passenger, Gabrielle Aplin, y Joss Stone combinan elementos de pop alternativo con un toque indie, creando melodías pegajosas y letras emocionalmente resonantes que atraen a un público diverso."
+		},
+		{
+			"name": "Música Experimental y Electrónica Luminosa",
+			"description": "Ludovico Einaudi y Jónsi se destacan por su capacidad para mezclar música clásica moderna con elementos electrónicos y experimentales, creando paisajes sonoros etéreos y envolventes que ofrecen una experiencia auditiva única."
+		},
+		{
+			"name": "Rock Alternativo y Psicodélico",
+			"description": "Bandas como Explosions in the Sky, Fleet Foxes y My Morning Jacket exploran sonidos atmosféricos y expansivos dentro del rock alternativo y psicodélico, con un enfoque en la textura sonora y la atmósfera."
+		},
+		{
+			"name": "Pop Indie y Melodías Cautivadoras",
+			"description": "Artistas como Joss Stone, Rhiannon Giddens, y Feist crean canciones con un fuerte enfoque en la melodía y una estructura pop indie que no pierde el toque de autenticidad y emoción en su estilo."
+		},
+		{
+			"name": "Música Folk y Country Indie",
+			"description": "Grupos como Delta Rae, Hozier y Ben Nichols fusionan el folk con toques de country y rock indie, ofreciendo letras narrativas y una instrumentación rica en matices."
+		}
+	],
+	"9": [
+		{
+			"name": "Rap Alternativo y Experimental",
+			"description": "Artistas como Childish Gambino, Brockhampton, Vince Staples, y ScHoolboy Q representan el rap experimental con letras introspectivas y sonidos innovadores, mezclando géneros como el jazz, el soul y la electrónica. Esta categoría se caracteriza por la búsqueda de una identidad propia dentro del rap tradicional."
+		},
+		{
+			"name": "R&B Alternativo y Soul Contemporáneo",
+			"description": "Artistas como Kehlani, Frank Ocean, Jhené Aiko, SZA y Anderson .Paak están a la vanguardia del R&B alternativo. Con sonidos suaves, letras introspectivas y una fusión de elementos del soul, el funk y la electrónica, estos artistas han redefinido el R&B en los últimos años."
+		},
+		{
+			"name": "Hip-Hop Independiente y Underground",
+			"description": "Nombres como J. Cole, Chance the Rapper, Logic, Mick Jenkins y Joey Bada$$ representan una ola de rap consciente e independiente. Estos artistas se alejan de las tendencias comerciales, destacándose por su contenido lírico profundo y su enfoque en temas sociales y personales."
+		},
+		{
+			"name": "Electrónica y R&B Experimental",
+			"description": "Artistas como Sevdaliza, NAO, Moses Sumney y Jorja Smith fusionan el R&B con electrónica experimental, creando paisajes sonoros vanguardistas que desafían las convenciones del género. Su música se caracteriza por atmósferas etéreas y una exploración emocional profunda."
+		},
+		{
+			"name": "Pop Alternativo y Indie",
+			"description": "Artistas como Willow, Troye Sivan, and Tom Misch traen un enfoque indie-pop con influencias electrónicas y experimentales. Sus sonidos frescos y vanguardistas apelan a una audiencia que busca algo diferente dentro del mainstream pop."
+		},
+		{
+			"name": "Rap y Soul Fusionado con Influencias Internacionales",
+			"description": "Artistas como Jorja Smith, ABHI The Nomad, y Kojo Funds combinan el rap y el soul con influencias de diversos géneros globales, incluyendo el reggae, el dancehall y sonidos africanos, creando una mezcla fresca de estilos urbanos y melodías internacionales."
+		},
+		{
+			"name": "Hip-Hop con Influencias de Jazz y Soul",
+			"description": "Músicos como Kamasi Washington, Blu, y The Procussions fusionan el rap con el jazz y el soul, utilizando instrumentación en vivo y una fuerte influencia de la tradición musical afroamericana. Su estilo es introspectivo y se enfoca en la narración profunda y la experimentación musical."
+		}
+	],
+	"10": [
+		{
+			"name": "EDM & Progressive House",
+			"description": "Artistas como Calvin Harris, Tiësto, Avicii, y Axwell Ingrosso son referentes clave en la música electrónica de festivales y clubs, con sus sonidos progresivos, de house y dance, que dominan las listas de éxitos internacionales."
+		},
+		{
+			"name": "Trap & Bass Music",
+			"description": "Excision, Datsik, NGHTMRE, y Bassnectar son pioneros en el movimiento de bass music y trap, creando un estilo pesado con subidas de bajos intensas, ideal para fiestas electrónicas y actuaciones en vivo."
+		},
+		{
+			"name": "Electro & House Experimental",
+			"description": "Artistas como Knife Party, The Bloody Beetroots, y Zedd fusionan electro house con elementos experimentales, creando sonidos oscilantes entre lo agresivo y lo melódico, populares en el ámbito festivalero."
+		},
+		{
+			"name": "Future Bass & Trap Fusion",
+			"description": "NGHTMRE, Jauz, y What So Not combinan future bass con elementos del trap, creando un sonido versátil y energético que apela tanto a los fanáticos de los beats pesados como a los amantes de melodías más suaves."
+		},
+		{
+			"name": "Deep House & Chillout",
+			"description": "Artistas como Gorgon City, Cassius, y L'Impératrice traen un estilo relajante de deep house, con influencias suaves y grooves orgánicos, ideales para ambientes relajados y playlists de chillout."
+		},
+		{
+			"name": "Eurodance & Progressive House",
+			"description": "Con sonidos vibrantes y energéticos, artistas como Sash!, ATB, y Scooter fusionan eurodance con el house progresivo, creando himnos de la música dance electrónica popular en Europa."
+		},
+		{
+			"name": "Glitch Hop & Experimental Bass",
+			"description": "The Glitch Mob, FuntCase, y Savant son artistas que exploran sonidos glitch hop y bass experimental, caracterizados por su enfoque en sonidos de alta energía con una mezcla de glitches, bajos profundos y ritmos inusuales."
+		},
+		{
+			"name": "Indie Dance & Nu Disco",
+			"description": "Polo & Pan, L'Impératrice, y The Crystal Method fusionan el nu-disco con el indie dance, creando una atmósfera sofisticada y fresca en sus composiciones que combinan influencias electrónicas con un toque de música indie."
+		},
+		{
+			"name": "Trap & Hip-Hop Influences",
+			"description": "Artistas como RL Grime, Party Favor, y Dillon Francis integran el trap con influencias del hip-hop, creando una mezcla explosiva de ritmos pesados y pegajosos que cautivan a los fanáticos de la música urbana y electrónica."
+		}
+	],
+	"11": [
+		{
+			"name": "Reggaetón & Música Urbana",
+			"description": "Artistas como J Balvin, Anuel AA, Bad Bunny, y Daddy Yankee dominan el reggaetón y la música urbana con sus pegajosos beats, letras sobre la vida nocturna y el desamor, muy populares en las listas de éxitos actuales."
+		},
+		{
+			"name": "Bachata & Salsa",
+			"description": "Selena, Aventura, Romeo Santos, y Grupo Extra son artistas claves de la bachata y salsa, géneros que combinan ritmos caribeños y melodías románticas, muy populares en la música latina."
+		},
+		{
+			"name": "Pop Latino y Balada",
+			"description": "Artistas como Reik, Luis Fonsi, y Alejandro Fernández fusionan baladas y pop latino, creando canciones emocionales que apelan a una amplia audiencia de habla hispana, especialmente en baladas románticas."
+		},
+		{
+			"name": "Música Regional Mexicana",
+			"description": "Grupo Cañaveral, Los Tucanes de Tijuana, Julión Álvarez, y Banda MS son exponentes clave de la música regional mexicana, incluidos géneros como banda, norteño y corridos, muy arraigados en la cultura mexicana y popular en todo el mundo."
+		},
+		{
+			"name": "Ritmos del Caribe & Reggae",
+			"description": "Con artistas como Vybz Kartel, Bob Marley y Steel Pulse, esta categoría abarca el reggae y el dancehall, con letras sobre resistencia, amor y vida en el Caribe."
+		},
+		{
+			"name": "Música Tropical y Salsa",
+			"description": "Artistas como Rubén Blades, Fito Olivares, y La India se destacan en la salsa y música tropical, géneros que mezclan la tradición caribeña con influencias modernas para un sonido bailable y festivo."
+		},
+		{
+			"name": "Latin Trap y Rap",
+			"description": "Artistas como Juhn, Lary Over, y Noriel definen el Latin Trap, un subgénero del trap y rap en español con letras directas sobre la vida en la calle y temas de éxito personal, presente en playlists urbanas y de fiesta."
+		},
+		{
+			"name": "Música Electrónica & Reggae Fusion",
+			"description": "Artistas como Rombai, Natural Incense y DJ Mam's fusionan música electrónica con reggae y estilos caribeños, creando un ambiente festivo ideal para fiestas y eventos al aire libre."
+		}
+	],
+	"12": [
+		{
+			"name": "Indie Pop/Rock y Alternativo",
+			"description": "Artistas como Sky Sailing, The Boxer Rebellion, Teddy Geiger, y Travis representan el estilo indie pop/rock alternativo, con melodías suaves y letras introspectivas, típicas de playlists para momentos tranquilos o reflexivos."
+		},
+		{
+			"name": "Pop-Rock Contemporáneo",
+			"description": "Phillip Phillips, Coldplay, Train, y The Fray son ejemplos de pop-rock contemporáneo, conocido por sus temas emocionales y épicos que invitan a la reflexión, frecuentemente incluidos en playlists de inspiración o relajación."
+		},
+		{
+			"name": "Música Cinemática y de Películas",
+			"description": "Compositores como Dario Marianelli, Claude Debussy, y Michael Giacchino aportan música cinematográfica, ideal para playlists épicas o para ambientar momentos de película, con melodías profundas y evocadoras."
+		},
+		{
+			"name": "Folk y Pop Alternativo",
+			"description": "Artistas como Alex Clare, James Blunt, y Ryan Cabrera ofrecen un estilo folk/pop alternativo, a menudo melancólico y sincero, presente en playlists de descubrimiento o momentos introspectivos."
+		},
+		{
+			"name": "Pop Melódico y Adulto Contemporáneo",
+			"description": "Serena Ryder, Edwin McCain, y Lifehouse representan el pop melódico y adulto contemporáneo, con letras que exploran el amor y la vida, comunes en listas de reproducción suaves y emocionales."
+		},
+		{
+			"name": "Rock Alternativo y Experimental",
+			"description": "Bandas como Snow Patrol, Imagine Dragons, y X Ambassadors traen un sonido de rock alternativo y experimental, con un enfoque en lo emotivo y lo experimental, ideales para playlists de energía e introspección."
+		},
+		{
+			"name": "Música Electrónica y Remix",
+			"description": "Artistas como Owl City, Neon Trees, y Zayde Wølf, combinan elementos electrónicos con pop, creando sonidos envolventes y optimistas, que se destacan en playlists de música electrónica moderna y experimental."
+		},
+		{
+			"name": "Música Acústica y Folk",
+			"description": "El estilo acústico y folk de artistas como He Is We, Tim Halperin, y Anna Nalick, ofrece melodías suaves y letras poéticas, perfectas para playlists relajantes y momentos de reflexión personal."
+		},
+		{
+			"name": "Rock y Pop Británico",
+			"description": "B.E.R., Stereophonics, y Athlete ofrecen una mezcla de rock y pop británico, con letras melódicas y una energía ligera, que resuenan en playlists con un tono más animado pero melancólico."
+		},
+		{
+			"name": "Pop de los 2000s",
+			"description": "Grupos como Plain White T's, fun., y OneRepublic son típicos del pop de los 2000s, con canciones pegajosas y letras centradas en temas de amor y superación personal, muy presentes en playlists retro o de clásicos modernos."
+		}
+	],
+	"13": [
+		{
+			"name": "Pop acústico y baladas contemporáneas",
+			"description": "Artistas como Ed Sheeran, James Arthur, Niall Horan y Shawn Mendes representan una mezcla de pop acústico con letras introspectivas y emocionales, ideales para playlists de baladas románticas y melodías suaves."
+		},
+		{
+			"name": "Artistas de indie pop y alternativo",
+			"description": "Bandas y artistas como A Great Big World, Alexi Blue, Rachael Yamagata, y The Perishers traen un estilo de indie pop y alternativo que explora temas melancólicos y voces suaves, perfectas para momentos tranquilos o reflexivos."
+		},
+		{
+			"name": "Pop experimental y de fusión",
+			"description": "Artistas como Paloma Faith, Lily Allen, y Leela James fusionan pop con elementos de jazz, soul y otros géneros, creando un sonido distintivo con influencias modernas y clásicas."
+		},
+		{
+			"name": "Pop suave y nostálgico",
+			"description": "Conor Maynard, Liam Payne, y Ron Pope ofrecen pop suave, a menudo nostálgico, que recuerda a los éxitos del pop clásico pero con un toque contemporáneo, ideal para fans de melodías sentimentales."
+		},
+		{
+			"name": "Pop de jóvenes talentos y fenómenos virales",
+			"description": "Artistas como Why Don't We, Grace VanderWaal, y Alec Benjamin representan una nueva generación de pop, caracterizada por letras emotivas y estilos frescos que resonaron con audiencias más jóvenes a través de plataformas digitales."
+		},
+		{
+			"name": "Pop alternativo y folk moderno",
+			"description": "Con nombres como Ben Cocks, Mree, y Matt Schuler, este grupo fusiona el pop alternativo con el folk moderno, dando lugar a sonidos calmados y reflexivos, con enfoque en la instrumentación orgánica y la emotividad vocal."
+		}
+	],
+	"14": [
+		{
+			"name": "Country Clásico y Tradicional",
+			"description": "Artistas como George Strait, Merle Haggard, Alan Jackson, y Randy Travis representan la esencia del country tradicional, con letras sobre la vida rural, el amor y las dificultades, típicos de las playlists más nostálgicas del género."
+		},
+		{
+			"name": "Country Contemporáneo y Pop",
+			"description": "Florida Georgia Line, Sam Hunt, Blake Shelton y Carrie Underwood fusionan el country con el pop, creando un sonido más accesible a las nuevas audiencias, a menudo presente en playlists que mezclan géneros y buscan atraer a un público más joven."
+		},
+		{
+			"name": "Southern Rock y Outlaw Country",
+			"description": "Artistas como Whiskey Myers, Blackberry Smoke, y Jason Boland & The Stragglers encarnan el espíritu del southern rock y el outlaw country, con influencias de rock, blues y la rebeldía propia de los sonidos más crudos y auténticos del sur de EE.UU."
+		},
+		{
+			"name": "Country Moderno con Toques de Americana",
+			"description": "Kacey Musgraves, Chris Stapleton, y Maren Morris han llevado el country moderno a nuevos límites, incorporando influencias de americana, folk y pop, lo que los convierte en artistas clave en las playlists que exploran la evolución del género."
+		},
+		{
+			"name": "Country de Fiestas y Divertido",
+			"description": "Big & Rich, Colt Ford, y The Lacs aportan un estilo country más alegre y orientado hacia la fiesta, a menudo con letras que celebran la diversión, las salidas y los momentos de camaradería, ideales para playlists energéticas y de festividades."
+		}
+	],
+	"15": [
+		{
+			"name": "Electrónica y Pop Experimental",
+			"description": "Artistas como Flume, ODESZA, Sofi Tukker y GRiZ representan un estilo único de música electrónica fusionada con elementos del pop experimental, creando atmósferas vibrantes y pegajosas que se destacan en playlists de géneros como chillwave, future bass y dance pop."
+		},
+		{
+			"name": "Pop Alternativo y Indie Electrónico",
+			"description": "Bandas y artistas como LANY, Oh Wonder, and Yoke Lore están inmersos en la escena del pop alternativo y el indie electrónico, mezclando sonidos melódicos con influencias electrónicas, populares en playlists de pop alternativo y música suave para ambientes relajados."
+		},
+		{
+			"name": "Dancehall y Música Caribeña Moderna",
+			"description": "Bunji Garlin, Machel Montano, RDX y Timaya son representantes destacados de la música dancehall y caribeña moderna, ofreciendo vibrantes ritmos que fusionan reggae, soca y dancehall, populares en playlists energéticas y de fiesta."
+		},
+		{
+			"name": "Indie Pop y Dream Pop",
+			"description": "Artistas como Lucy Pearl, Mansionair, y Ralph Felix se destacan en el indie pop y el dream pop, creando canciones atmosféricas con influencias electrónicas suaves, ideales para playlists relajadas y introspectivas."
+		},
+		{
+			"name": "Pop Electrónico y Future Pop",
+			"description": "Artistas como Dua Lipa, Halsey, y Lauv llevan el pop hacia un futuro electrónico, fusionando ritmos pegajosos con sintetizadores y sonidos futuristas, dominando playlists de pop electrónico y éxitos internacionales."
+		},
+		{
+			"name": "Deep House y Future House",
+			"description": "DJs y productores como Duke Dumont, Disclosure, y Gorgon City están al frente del deep house y future house, creando pistas de baile con groovy basslines y atmosféricos sintetizadores que llenan las playlists de club y house."
+		},
+		{
+			"name": "Indie Dance y Electro Pop",
+			"description": "Artistas como The Magician, Justice Skolnik, y Sam Feldt están fusionando indie dance y electro pop, produciendo temas pegajosos con un toque electrónico, perfectos para playlists de música alegre y de festivales."
+		},
+		{
+			"name": "Trap, Hip-Hop y EDM Fusionado",
+			"description": "Grupos como Major Lazer, Marshmello y AJR combinan influencias de trap, hip-hop y EDM, creando una fusión energética de géneros populares en festivales y listas de reproducción de música bailable."
+		}
+	],
+	"16": [
+		{
+			"name": "Música Cristiana Contemporánea (CCM)",
+			"description": "Artistas como Chris Tomlin, TobyMac, Lauren Daigle, y Hillsong Worship representan el sonido moderno de la música cristiana contemporánea, combinando influencias de pop, rock y música de adoración."
+		},
+		{
+			"name": "Hip-Hop y Rap Cristiano",
+			"description": "Lecrae, Trip Lee, y KB son exponentes del hip-hop y rap cristiano, fusionando el mensaje de fe con ritmos urbanos, populares en playlists con un enfoque motivacional y espiritual."
+		},
+		{
+			"name": "Rock Cristiano y Adoración",
+			"description": "Grupos como Switchfoot, Jars of Clay, y Delirious? son conocidos por sus contribuciones al rock cristiano, mezclando guitarras eléctricas y letras espirituales."
+		},
+		{
+			"name": "Música de Adoración y Alabanza",
+			"description": "Bandas como Bethel Music, Elevation Worship, y Hillsong United lideran el movimiento de música de adoración moderna, creando himnos populares para iglesias y eventos cristianos."
+		},
+		{
+			"name": "Pop Cristiano y Alternativo",
+			"description": "Artistas como Owl City, Blanca, y Moriah Peters mezclan elementos de pop y música alternativa con letras positivas y espirituales, ideales para playlists de inspiración cristiana."
+		},
+		{
+			"name": "Música Cristiana Indie y Alternativa",
+			"description": "Bandas como The Brilliance, All Sons & Daughters, y Ghost Ship son conocidos por su enfoque en el indie cristiano, creando una atmósfera más relajada y reflexiva en sus composiciones."
+		},
+		{
+			"name": "Adoración Contemporánea en Vivo",
+			"description": "Grupos como Passion y Life.Church Worship ofrecen una experiencia de adoración contemporánea en vivo, con canciones que se interpretan en eventos y conferencias cristianas globales."
+		}
+	],
+	"17": [
+		{
+			"name": "Trap & Hip-Hop Moderno",
+			"description": "Artistas como Future, Travis Scott, Playboi Carti, Lil Uzi Vert, y Lil Pump dominan este subgénero del trap moderno con sonidos oscuros, ritmos pesados y letras sobre la vida en la calle, popularizados en plataformas como SoundCloud y Spotify."
+		},
+		{
+			"name": "R&B y Trap Fusionado",
+			"description": "Artistas como A Boogie Wit da Hoodie, Cardi B, Kehlani, y Ty Dolla $ign fusionan el trap con melodías de R&B, creando un estilo único que conecta con audiencias tanto en fiestas como en momentos introspectivos."
+		},
+		{
+			"name": "Rap Underground & DIY",
+			"description": "Con artistas como XXXTentacion, Ghostemane, Lil Peep, y Bones, esta comunidad representa una mezcla de rap alternativo y underground, con un enfoque en lo emocional y lo experimental, a menudo autogestionado sin un gran respaldo de disqueras."
+		},
+		{
+			"name": "Rap de la Costa Este y Sur",
+			"description": "Artistas como Meek Mill, YG, Kodak Black, y Lil Yase son exponentes prominentes del rap de la Costa Este y Sur, conocidos por sus liricas de street life y un estilo influenciado por el trap y los beats más duros."
+		},
+		{
+			"name": "Rap de Fiesta y Baladas",
+			"description": "Con artistas como Jeremih, French Montana, y PnB Rock, esta comunidad se caracteriza por rap mezclado con melodías suaves y pegajosas, ideal para fiestas y playlists de relajación urbana."
+		}
+	],
+	"18": [
+		{
+			"name": "Hip-Hop Sur de EE.UU. y Rap de Calle",
+			"description": "Artistas como T.I., Jeezy, Webbie, y Young Dro son representantes clave del sur del rap estadounidense, con su estilo característico de ritmos lentos, letras crudas y temas de la vida callejera, muy comunes en el rap sureño."
+		},
+		{
+			"name": "Trap y Hip-Hop de Fiesta",
+			"description": "Con la inclusión de artistas como Lil Wayne, Wiz Khalifa, Rick Ross, y Tyga, esta comunidad fusiona el trap con el ambiente festivo de los clubes, popularizando un estilo musical que combina beats pesados con letras fiesteras y de lujo."
+		},
+		{
+			"name": "Colaboraciones y Colectivos de Rap",
+			"description": "Formaciones como Young Money, Rich Gang y Boyz N Da Hood representan colectivos de rap que reúnen a varios artistas con estilos similares para colaborar y dominar la escena del hip-hop, con énfasis en el flujo, la competencia y la expansión de su sonido."
+		},
+		{
+			"name": "Raperos de la Nueva Ola y Éxito Internacional",
+			"description": "Artistas como Wiz Khalifa, B.o.B, y Machine Gun Kelly traen una influencia más global y experimental al rap, fusionando géneros y alcanzando popularidad en la radio mainstream y en audiencias internacionales."
+		},
+		{
+			"name": "Trap & Hype Beats",
+			"description": "Con figuras como Travis Porter, Migos, y Future, esta subcomunidad destaca el estilo rápido y pegajoso del trap, donde los beats intensos y las letras atrevidas dominan las playlists y pistas de baile."
+		}
+	],
+	"19": [
+		{
+			"name": "Hip-Hop alternativo y experimental",
+			"description": "Artistas como Dreezy, Rome Fortune, y Joey Gatto traen una fusión de hip-hop experimental, sonidos alternativos y temas introspectivos, formando parte de una escena en crecimiento de rap no convencional."
+		},
+		{
+			"name": "R&B contemporáneo y de nueva generación",
+			"description": "Bryson Tiller, Victoria Monet, y Mabel son representantes del R&B moderno con influencias de trap y soul, con letras de amor y relaciones, a menudo con una estética más oscura y minimalista."
+		},
+		{
+			"name": "Dancehall y Reggae Fusion",
+			"description": "Con artistas como Popcaan, Aidonia, y Konshens, esta comunidad está influenciada por los ritmos caribeños del dancehall y reggae, fusionados con trap y rap moderno, populares en la música global."
+		},
+		{
+			"name": "Rap y trap internacional",
+			"description": "Artistas como Drake, Lil George, y Kranium representan la fusión de trap y rap con influencias globales, alcanzando popularidad tanto en los Estados Unidos como en mercados internacionales."
+		},
+		{
+			"name": "Pop alternativo y experimental",
+			"description": "Con artistas como Shamir, Jidenna, y Lolawolf, esta comunidad mezcla pop experimental con elementos electrónicos y alternativos, creando un sonido vanguardista y diverso."
+		},
+		{
+			"name": "Trap y música urbana",
+			"description": "Artistas como Yung Lan, Lil B, y T-Wayne son parte de la comunidad del trap y la música urbana, con letras crudas y beats contundentes que dominan las calles y las plataformas digitales."
+		},
+		{
+			"name": "Música experimental y electrónica",
+			"description": "Contribuyendo al paisaje musical alternativo, artistas como Stwo, Falcons, y Tyus exploran la electrónica experimental y el hip-hop suave, fusionando géneros en nuevas y emocionantes direcciones."
+		},
+		{
+			"name": "R&B influenciado por trap y soul",
+			"description": "Artistas como Teedra Moses, PJ, y Vedo exploran el R&B con fuertes influencias de trap, soul y funk, creando un sonido moderno pero con raíces profundas en la tradición del R&B clásico."
+		}
+	]
+}

@@ -1,3 +1,4 @@
+import { gsap } from 'gsap'
 import TWEEN from '@tweenjs/tween.js'
 import React, { useCallback, useEffect, useRef, useState } from 'react'
 import * as THREE from 'three'
@@ -18,13 +19,17 @@ interface Props {
   NodeArtist: string | null
   setNodeHover: React.Dispatch<React.SetStateAction<string | null>>
   SetIsLoading: React.Dispatch<React.SetStateAction<boolean>>
+  setNumberCom: React.Dispatch<React.SetStateAction<number | null>>
+  setComunity: React.Dispatch<React.SetStateAction<string>>
 }
 
 const Graph: React.FC<Props> = ({
   setNodeArtist,
   setNodeHover,
   SetIsLoading,
-  NodeArtist
+  NodeArtist,
+  setNumberCom,
+  setComunity
 }) => {
   const [graphData, setGraphData] = useState<{
     nodes: NodeInfo[]
@@ -154,7 +159,7 @@ const Graph: React.FC<Props> = ({
 
     if (!rendererRef.current) {
       rendererRef.current = new THREE.WebGLRenderer({
-        antialias: false,
+        antialias: true,
         alpha: true
       })
       rendererRef.current.setSize(width, height)
@@ -178,6 +183,7 @@ const Graph: React.FC<Props> = ({
     > = {}
 
     const numCommunities = communityIds.length
+    setNumberCom(numCommunities)
     const radius = 100 // Radius of the sphere
 
     communityIds.forEach((communityId, index) => {
@@ -195,10 +201,13 @@ const Graph: React.FC<Props> = ({
       const color = new THREE.Color(hue).getHex()
       communityColors[communityId!] = color
       meshMaterials[communityId!] = new THREE.MeshStandardMaterial({
+        // bleding mode to oen to interact with light
         color,
-        emissive: 0x000000, // Rely on scene lighting
-        roughness: 0.5,
-        metalness: 0.2
+        blending: THREE.NormalBlending,
+        transparent: false,
+        metalness: 0.5, // Adjust metalness as needed
+        roughness: 0.5, // Adjust roughness as needed
+        side: THREE.DoubleSide
       })
     })
 
@@ -213,12 +222,13 @@ const Graph: React.FC<Props> = ({
     })
 
     const scene = new THREE.Scene()
-    scene.fog = new THREE.Fog(0x1a0033, 0.1, 20000)
+    // fog
+    scene.fog = new THREE.Fog(0x1a0033, 0.1, 15000)
     // Background color of the div of html
     scene.background = new THREE.Color(0x0a0d0f)
 
     // Initialize camera
-    const camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 20000)
+    const camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 35000)
     camera.position.set(0, 0, 1500)
     camera.lookAt(0, 0, 0)
     cameraRef.current = camera
@@ -226,12 +236,13 @@ const Graph: React.FC<Props> = ({
     // Initialize controls
     const renderer = rendererRef.current
     const controls = new OrbitControls(camera, renderer.domElement)
+    // disabled drag
+    controls.enablePan = false
     controls.enableZoom = true
     controls.zoomSpeed = 1.5
-    controls.minDistance = 100
-    controls.maxDistance = 2000
+    controls.minDistance = 500
+    controls.maxDistance = 3000
     controls.rotateSpeed = 0.7
-    controls.enablePan = true
     controls.autoRotate = true
     controls.autoRotateSpeed = 0.1
     controls.enableDamping = true
@@ -269,7 +280,7 @@ const Graph: React.FC<Props> = ({
       )
       .force('center', forceCenter(0, 0, 0)) // Centrar la simulación
       .force('charge', forceManyBody().strength(-30))
-      .alphaDecay(0.15) // Aumentar la tasa de decaimiento alfa para estabilización más rápida
+      .alphaDecay(0.1) // Aumentar la tasa de decaimiento alfa para estabilización más rápida
       .on('tick', ticked)
       .on('end', () => {
         console.log('Simulation ended')
@@ -277,7 +288,7 @@ const Graph: React.FC<Props> = ({
       })
     // optimizations for performance
 
-    const nodeGeometry = new THREE.SphereGeometry(10, 4, 4)
+    const nodeGeometry = new THREE.SphereGeometry(12, 8, 8)
     const nodeMeshes: { [id: string]: THREE.Mesh } = {}
 
     graphData.nodes.forEach(node => {
@@ -286,15 +297,17 @@ const Graph: React.FC<Props> = ({
       nodeMesh.castShadow = true // Nodes cast shadows
       nodeMesh.receiveShadow = true // Nodes receive shadows
       nodeMesh.userData = { node } // Asigna los datos del nodo aquí
+      nodeMesh.renderOrder = 1
       nodeMeshes[node.id] = nodeMesh
+
       scene.add(nodeMesh)
     })
     nodeMeshesRef.current = nodeMeshes
 
+    // Modify the linkMaterial to ensure edges have appropriate color and opacity
     const linkMaterial = new THREE.LineBasicMaterial({
-      color: 0xb3b3b3,
-      linewidth: 10,
-      linecap: 'round',
+      // best color for edge in dark background
+      color: 0x4f5b66,
       opacity: 0.1,
       transparent: true,
       side: THREE.DoubleSide
@@ -306,8 +319,12 @@ const Graph: React.FC<Props> = ({
       'position',
       new THREE.BufferAttribute(linkPositions, 3)
     )
+    linkGeometry.computeBoundingBox()
+    linkGeometry.computeBoundingSphere()
+
+    // Create LineSegments with adjusted material
     const linkLines = new THREE.LineSegments(linkGeometry, linkMaterial)
-    // Optionally, set render order
+    linkLines.renderOrder = 0 // Render edges behind nodes
     scene.add(linkLines)
 
     // ambient light
@@ -318,9 +335,9 @@ const Graph: React.FC<Props> = ({
     const directionalLight = new THREE.DirectionalLight(0xffffff, 2)
     directionalLight.position.set(0, 4000, -4000)
     directionalLight.castShadow = true
-    directionalLight.shadow.mapSize.width = 512
-    directionalLight.shadow.mapSize.height = 512
-    directionalLight.shadow.camera.near = 0.5
+    directionalLight.shadow.mapSize.width = 5000
+    directionalLight.shadow.mapSize.height = 5000
+    directionalLight.shadow.camera.near = 1
     directionalLight.shadow.camera.far = 5000
     scene.add(directionalLight)
 
@@ -414,6 +431,7 @@ const Graph: React.FC<Props> = ({
       })
     }
 
+    // Animation loop
     const animate = () => {
       requestAnimationFrame(animate)
       TWEEN.update()
@@ -445,7 +463,14 @@ const Graph: React.FC<Props> = ({
       simulation.stop()
       SetIsLoading(true)
     }
-  }, [SetIsLoading, graphData, handleNodeHover, handleNodeSelect, setNodeHover])
+  }, [
+    SetIsLoading,
+    graphData,
+    handleNodeHover,
+    handleNodeSelect,
+    setNodeHover,
+    setNumberCom
+  ])
 
   // DETECT CHANGES
   useEffect(() => {
@@ -456,14 +481,19 @@ const Graph: React.FC<Props> = ({
       controlsRef.current
     ) {
       const targetNode = graphData.nodes.find(node => node.id == NodeArtist)
-      console.log(targetNode)
       if (targetNode) {
         const camera = cameraRef.current
-        const controls = controlsRef.current
 
-        controls.target.set(targetNode.x!, targetNode.y!, targetNode.z!)
-        camera.position.set(targetNode.x!, targetNode.y!, targetNode.z! + 500)
-        controls.update()
+        /// Animar la posición de la cámara
+        gsap.to(camera.position, {
+          x: targetNode.x!,
+          y: targetNode.y!,
+          z: targetNode.z!,
+          duration: 1.5,
+          onUpdate: () => {
+            camera.lookAt(targetNode.x!, targetNode.y!, targetNode.z!)
+          }
+        })
 
         // Reset previous selected mesh material
         if (selectedMeshRef.current) {
@@ -485,11 +515,12 @@ const Graph: React.FC<Props> = ({
             roughness: 0.5,
             metalness: 0.2
           })
+          setComunity(String(targetNode.community))
           selectedMeshRef.current = selectedMesh
         }
       }
     }
-  }, [NodeArtist, graphData.nodes])
+  }, [NodeArtist, graphData.nodes, setComunity])
 
   return (
     <div
