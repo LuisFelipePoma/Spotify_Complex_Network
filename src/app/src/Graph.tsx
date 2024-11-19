@@ -142,8 +142,10 @@ const Graph: React.FC<Props> = ({
         // Calculate the degree (number of connections) for each node
         const nodeDegrees: { [id: string]: number } = {}
         links.forEach(link => {
-          nodeDegrees[link.source as string] = (nodeDegrees[link.source as string] || 0) + 1
-          nodeDegrees[link.target as string] = (nodeDegrees[link.target as string] || 0) + 1
+          nodeDegrees[link.source as string] =
+            (nodeDegrees[link.source as string] || 0) + 1
+          nodeDegrees[link.target as string] =
+            (nodeDegrees[link.target as string] || 0) + 1
         })
         nodes.forEach(node => {
           node.degree = nodeDegrees[node.id] || 0
@@ -212,7 +214,7 @@ const Graph: React.FC<Props> = ({
       meshMaterials[communityId!] = new THREE.MeshStandardMaterial({
         // bleding mode to oen to interact with light
         color,
-        blending: THREE.NormalBlending,
+        // blending: THREE.NormalBlending,
         transparent: false,
         metalness: 0.5, // Adjust metalness as needed
         roughness: 0.5, // Adjust roughness as needed
@@ -288,8 +290,8 @@ const Graph: React.FC<Props> = ({
           )
       )
       .force('center', forceCenter(0, 0, 0)) // Centrar la simulación
-      .force('charge', forceManyBody().strength(-30))
-      .alphaDecay(0.08) // Aumentar la tasa de decaimiento alfa para estabilización más rápida
+      .force('charge', forceManyBody().strength(-35))
+      .alphaDecay(0.05) // Aumentar la tasa de decaimiento alfa para estabilización más rápida
       .on('tick', ticked)
       .on('end', () => {
         console.log('Simulation ended')
@@ -303,7 +305,7 @@ const Graph: React.FC<Props> = ({
     graphData.nodes.forEach(node => {
       const material = meshMaterials[node.community!]
       const nodeRadius = Math.max(6, Math.min(18, node.degree! * 2))
-      const nodeGeometry = new THREE.SphereGeometry(nodeRadius, 8, 8)
+      const nodeGeometry = new THREE.SphereGeometry(nodeRadius, 6, 6)
       const nodeMesh = new THREE.Mesh(nodeGeometry, material)
       nodeMesh.castShadow = true
       nodeMesh.receiveShadow = true
@@ -320,8 +322,8 @@ const Graph: React.FC<Props> = ({
       // best color for edge in dark background
       color: 0xf6e0b5,
       opacity: 0.1,
-      transparent: true,
-      side: THREE.DoubleSide
+      transparent: true
+      // side: THREE.DoubleSide
     })
 
     const linkGeometry = new THREE.BufferGeometry()
